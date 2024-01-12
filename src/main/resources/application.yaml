@@ -1,0 +1,13 @@
+server:
+  servlet:
+    register-default-servlet: true
+
+spring:
+  session:
+    mongodb:
+      collection-name: sessions
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/security-demo
+      username: root
+      password: secret
